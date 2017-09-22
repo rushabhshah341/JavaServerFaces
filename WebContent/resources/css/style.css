@@ -99,7 +99,9 @@ body {
 }
 .btn.btn-login {
     border: 1px solid #ccc;
+    cursor: pointer;
 }
 .btn.btn-register {
     border: 1px solid #ccc;
+    cursor: pointer;
 }
