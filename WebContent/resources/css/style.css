@@ -1,19 +1,19 @@
 body {
     padding: 10px;
 }
-.panel-login {
+.login-panel{
 	border-color: #ccc;
 	-webkit-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.3);
 	-moz-box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.3);
 	box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.3);
 }
-.panel-login>.panel-heading {
-	color: #00415d;
+.login-panel>.panel-heading {
+	color: #8080ffs;
 	background-color: #fff;
 	border-color: #fff;
 	text-align:center;
 }
-.panel-login>.panel-heading a{
+.login-panel>.panel-heading a{
 	text-decoration: none;
 	color: #666;
 	font-weight: bold;
@@ -22,11 +22,11 @@ body {
 	-moz-transition: all 0.1s linear;
 	transition: all 0.1s linear;
 }
-.panel-login>.panel-heading a.active{
+.login-panel>.panel-heading a.active{
 	color: #029f5b;
 	font-size: 18px;
 }
-.panel-login>.panel-heading hr{
+.login-panel>.panel-heading hr{
 	margin-top: 10px;
 	margin-bottom: 0px;
 	clear: both;
@@ -37,7 +37,7 @@ body {
 	background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
 	background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
 }
-.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+.login-panel input[type="text"],.login-panel input[type="email"],.login-panel input[type="password"] {
 	height: 45px;
 	border: 1px solid #ddd;
 	font-size: 16px;
@@ -45,8 +45,8 @@ body {
 	-moz-transition: all 0.1s linear;
 	transition: all 0.1s linear;
 }
-.panel-login input:hover,
-.panel-login input:focus {
+.login-panel input:hover,
+.login-panel input:focus {
 	outline:none;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
@@ -64,22 +64,16 @@ body {
 	text-transform: uppercase;
 	border-color: #59B2E6;
 }
+.btn.btn-login {
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
 .btn-login:hover,
 .btn-login:focus {
 	color: #fff;
 	background-color: #53A3CD;
 	border-color: #53A3CD;
 }
-.forgot-password {
-	text-decoration: underline;
-	color: #888;
-}
-.forgot-password:hover,
-.forgot-password:focus {
-	text-decoration: underline;
-	color: #666;
-}
-
 .btn-register {
 	background-color: #1CB94E;
 	outline: none;
@@ -97,10 +91,7 @@ body {
 	background-color: #1CA347;
 	border-color: #1CA347;
 }
-.btn.btn-login {
-    border: 1px solid #ccc;
-    cursor: pointer;
-}
+
 .btn.btn-register {
     border: 1px solid #ccc;
     cursor: pointer;
